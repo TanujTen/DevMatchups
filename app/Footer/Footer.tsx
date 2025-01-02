@@ -23,6 +23,26 @@ export default function Footer() {
                     </Link>
                     <p className="  text-wrap text-base font-medium py-2 ">Team up for success in every hackathon <br/> Build your dream hackathon team with DevMatchups!</p>
                 </div>
+                <div className="flex flex-col justify-start items-start lg:h-full gap-4">
+                      <h3 className="text-base md:text-lg font-semibold ml-1">Supported by</h3>
+                      <div className="flex gap-4">
+                            <Image
+                              src="https://www.socialwinterofcode.com/img/logo-2.png"
+                              alt="SWOC Logo"
+                              width={50}
+                              height={50}
+                              className="object-contain"
+                            />
+                            <Image
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZlh8NgUoArqNKUxE-vtN4jKXQZpuG3L_zw&s"
+                              alt="Hacktoberfest Logo"
+                              width={50}
+                              height={50}
+                              className="object-contain"
+                            />
+                      </div>
+                </div>
+
                 <div className="flex sm:flex-wrap lg:flex-nowrap w-full md:w-fit md:px-5 sm:p-0 sm:justify-around lg:justify-between gap-5 sm:gap-20  lg:h-full " >
 
                     <div className=" flex flex-col justify-start items-start lg:h-full gap-4  ">
